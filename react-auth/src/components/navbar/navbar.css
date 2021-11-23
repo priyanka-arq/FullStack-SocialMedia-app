@@ -1,0 +1,59 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(50, 50, 50, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*  following will keep topbar in same position when scrolling up
+  position: sticky;
+  top: 0;
+  z-index: 999; */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.chatLogo {
+  margin-right: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.link {
+  color: inherit;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.listItem {
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  .home {
+    padding: 20px;
+  }
+}
